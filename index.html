@@ -1,0 +1,472 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title> Code Fox</title>
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="style.css" />
+    <link rel="shortcut icon" href="/image/fox2.png" type="image/x-icon">
+  </head>
+
+  <body>
+    <!-- Header -->
+    <header
+      class="blog-header lh-1 py-3"
+      style="background: linear-gradient(150deg, rgb(156, 39, 39) 0%, rgb(39, 98, 157) 100%)"
+    >
+      <div class="row flex-nowrap justify-content-between align-items-center">
+        <div class="col-4 pt-1">
+          <a class="link-secondary mx-3" href="/"></a>
+        </div>
+        <div class="col-4 text-center" style="letter-spacing: 4px" id="logotopheader">
+          <img
+            src="/image/fox2.png "
+            alt=""
+            width="24"
+            height="24"
+            class="blog-header-logo text-dark text-decoration-none"
+            href="/index.html"
+          /><b> Code Fox</b>
+        </div>
+        <div class="col-4 d-flex justify-content-end align-items-center">
+          <!-- <a class="link-secondary" href="#" aria-label="Search">
+            </a> -->
+          <!-- <a class="btn btn-sm btn-outline-primary me-lg-3" href="/signup.html">Sign up</a> -->
+        </div>
+      </div>
+    </header>
+
+    <!-- Navbar -->
+
+    <nav class="navbar navbar-expand-lg navbar-light bg-light" style="align-items: left">
+      <div class="container-fluid">
+        <a class="navbar-brand" href="/">
+          <img
+            src="/image/fox2.png"
+            alt=""
+            width="24"
+            height="24"
+            class="d-inline-block align-text-top"
+          />
+          <italic>Code Fox</italic>
+        </a>
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarSupportedContent"
+          aria-controls="navbarSupportedContent"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav ms-auto mb-2 mb-lg-0 mx-4" style="word-spacing: 5px">
+            <li class="nav-item">
+              <a class="nav-link" aria-current="page" href="/"
+                ><img
+                  src="/image/homepage.png "
+                  alt=""
+                  width="24"
+                  height="24"
+                  class="d-inline-block align-text-top"
+                />
+                Home</a
+              >
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="/blog.html"
+                ><img
+                  src="/image/blognav.png"
+                  alt=""
+                  width="24"
+                  height="24"
+                  class="d-inline-block align-text-top"
+                />
+                Blogs</a
+              >
+            </li>
+            <li class="nav-item dropdown">
+              <a
+                class="nav-link dropdown-toggle"
+                href="/"
+                role="button"
+                data-bs-toggle="dropdown"
+                aria-expanded="false"
+                ><img
+                  src="/image/devlopmentnav.png"
+                  alt=""
+                  width="24"
+                  height="24"
+                  class="d-inline-block align-text-top"
+                />
+                Devlopment
+              </a>
+              <ul class="dropdown-menu">
+                <li>
+                  <a class="dropdown-item" href="/frontend.html">Front-end</a>
+                </li>
+                <li>
+                  <a class="dropdown-item" href="/backend.html">Back-end</a>
+                </li>
+                <li>
+                  <hr class="dropdown-divider active" />
+                </li>
+                <li>
+                  <a class="dropdown-item" href="/fullstack.html">Full-Stack Web</a>
+                </li>
+              </ul>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="/about.html"
+                ><img
+                  src="/image/aboutnav.png"
+                  alt=""
+                  width="24"
+                  height="24"
+                  class="d-inline-block align-text-top"
+                />
+                About</a
+              >
+            </li>
+
+            <li class="nav-item">
+              <a class="nav-link" href="/contactus.html"
+                ><img
+                  src="/image/contactnav.png"
+                  alt=""
+                  width="24"
+                  height="24"
+                  class="d-inline-block align-text-top"
+                />
+                Contact US</a
+              >
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+
+    <!-- Slides -->
+
+    <div id="carouselExampleCaptions" class="carousel slide" data-bs-ride="false">
+      <div class="carousel-indicators">
+        <button
+          type="button"
+          data-bs-target="#carouselExampleCaptions"
+          data-bs-slide-to="0"
+          class="active"
+          aria-current="true"
+          aria-label="Slide 1"
+        ></button>
+        <button
+          type="button"
+          data-bs-target="#carouselExampleCaptions"
+          data-bs-slide-to="1"
+          aria-label="Slide 2"
+        ></button>
+        <button
+          type="button"
+          data-bs-target="#carouselExampleCaptions"
+          data-bs-slide-to="2"
+          aria-label="Slide 3"
+        ></button>
+      </div>
+      <div id="carouselExampleDark" class="carousel carousel-dark slide" data-bs-ride="carousel">
+        <div class="carousel-indicators">
+          <button
+            type="button"
+            data-bs-target="#carouselExampleDark"
+            data-bs-slide-to="0"
+            class="active"
+            aria-current="true"
+            aria-label="Slide 1"
+          ></button>
+          <button
+            type="button"
+            data-bs-target="#carouselExampleDark"
+            data-bs-slide-to="1"
+            aria-label="Slide 2"
+          ></button>
+          <button
+            type="button"
+            data-bs-target="#carouselExampleDark"
+            data-bs-slide-to="2"
+            aria-label="Slide 3"
+          ></button>
+        </div>
+        <div class="carousel-inner">
+          <div class="carousel-item active" data-bs-interval="10000">
+            <img src="image/Firstslide.png" class="d-block w-100" style="opacity: 0.7" alt="..." />
+            <div class="carousel-caption d-none d-md-block">
+              <h3>Welcome to Code Fox</h3>
+              <p>Hi Folks! Here you Find Blog and Programming Stuff.</p>
+            </div>
+          </div>
+          <div class="carousel-item" data-bs-interval="2000">
+            <img
+              src="image/secondslides.png"
+              class="d-block w-100 secondimage"
+              style="opacity: 0.7"
+              alt="..."
+            />
+            <div class="carousel-caption d-none d-md-block">
+              <h3>Committed to a better future</h3>
+              <p>Programming is best things in the world Until ERROR! occur.</p>
+              <p>
+                <a class="btn btn-lg btn-warning" href="/squarecard1.html">Learn more</a>
+              </p>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <img
+              src="/image/blogreading1600.jpg"
+              class="d-block w-100"
+              style="opacity: 0.7"
+              alt="..."
+            />
+            <div class="carousel-caption d-none d-md-block">
+              <h5>Reading Blog is Fun</h5>
+              <p>Reading with your own pace is different level of understanding.</p>
+              <p>
+                <a class="btn btn-lg btn-primary" href="/blog.html">Browse Blog</a>
+              </p>
+            </div>
+          </div>
+        </div>
+        <button
+          class="carousel-control-prev"
+          type="button"
+          data-bs-target="#carouselExampleDark"
+          data-bs-slide="prev"
+        >
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Previous</span>
+        </button>
+        <button
+          class="carousel-control-next"
+          type="button"
+          data-bs-target="#carouselExampleDark"
+          data-bs-slide="next"
+        >
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
+        </button>
+      </div>
+    </div>
+
+    <div class="container marketing">
+      <!-- Three columns of text below the carousel -->
+      <div
+        class="row my-4"
+        style="
+          background: linear-gradient(150deg, rgb(32, 125, 128) 0%, rgb(157 39 39) 100%);
+          color: antiquewhite;
+        "
+      >
+        <div class="col-lg-4">
+          <div class="main1image">
+            <img
+              src="image/coding.png"
+              class="bd-placeholder-img1"
+              width="140"
+              height="140"
+              alt=""
+            />
+          </div>
+
+          <h2 class="fw-normal">What is Programming💻</h2>
+          <p>
+            Programming is a task to implement a solution to a problem in the form of computer
+            language. Programming is an exercise or practice that boost our logical thinking and
+            improves a problem-solving skill.
+          </p>
+          <p>
+            <a class="btn btn-outline-success" href="/maincardpro1.html">Read More »</a>
+          </p>
+        </div>
+        <!-- /.col-lg-4 -->
+        <div class="col-lg-4">
+          <div class="main1image">
+            <img
+              src="image/programmer.png"
+              class="bd-placeholder-img2"
+              width="140"
+              height="140"
+              alt=""
+            />
+          </div>
+          <h2 class="fw-normal">First line of Code 🧩</h2>
+          <p>
+            In many research, it’s not just about knowing a language really well or having a
+            particular educational background. It’s that the really talented programmers have
+            mastered the fundamentals.
+          </p>
+          <p>
+            <a class="btn btn-outline-danger" href="/maincardpro2.html">Read More »</a>
+          </p>
+        </div>
+        <!-- /.col-lg-4 -->
+        <div class="col-lg-4">
+          <div class="main1image">
+            <img
+              src="image/consistent.png"
+              class="bd-placeholder-img3"
+              width="140"
+              height="140"
+              alt=""
+            />
+          </div>
+          <h2 class="fw-normal">Maintain Your Flow 🎯</h2>
+          <p>
+            As a beginner in coding, we struggle a lot to build consistency, and due to which we
+            lost our pace. In the start, things look favorable to us so we did it consistently but
+            when things become slightly complex we start losing our way.
+          </p>
+          <p>
+            <a class="btn btn-outline-primary" href="/maincardpro3.html">Read More »</a>
+          </p>
+        </div>
+        <!-- /.col-lg-4 -->
+      </div>
+      <!-- /.row -->
+
+      <!-- START THE FEATURETTES -->
+
+      <hr class="featurette-divider" />
+
+      <div class="row featurette">
+        <div class="col-md-7">
+          <h2 class="featurette-heading fw-normal lh-1">
+            Hello World Program in C 📟.
+            <span class="text-muted">Let's See versatile word in Programming world.</span>
+          </h2>
+          <p class="lead">
+            Here we will write two C programs to display Hello World on the screen. In the first
+            program we are displaying the message using printf function and in the second program we
+            are calling a user defined function and that function displays the Hello World message
+            on the screen.
+          </p>
+          <a class="btn btn-outline-primary" href="/squarecard1.html">Read More »</a>
+        </div>
+        <div class="col-md-5">
+          <img
+            src="image/cprogramcard.jpeg"
+            class="bd-placeholder-img bd-placeholder-img-lg featurette-image img-fluid mx-auto"
+            width="400"
+            height="400"
+            alt=""
+          />
+        </div>
+      </div>
+
+      <hr class="featurette-divider" />
+
+      <div class="row featurette">
+        <div class="col-md-7 order-md-2">
+          <h2 class="featurette-heading fw-normal lh-1">
+            First Program in Python 🐍.
+            <span class="text-muted">See First program in python.</span>
+          </h2>
+          <p class="lead">
+            Python is a high-level, general-purpose programming language. Its design philosophy
+            emphasizes code readability with the use of significant indentation. Python is
+            dynamically-typed and garbage-collected. It supports multiple programming paradigms,
+            including structured, object-oriented and functional programming..
+          </p>
+          <a class="btn btn-outline-success" href="/squarecard2.html">Read More »</a>
+        </div>
+        <div class="col-md-5 order-md-1">
+          <img
+            src="image/pythoncard.jpeg"
+            class="bd-placeholder-img bd-placeholder-img-lg featurette-image img-fluid mx-auto"
+            width="400"
+            height="400"
+            alt=""
+          />
+        </div>
+      </div>
+
+      <hr class="featurette-divider" />
+
+      <div class="row featurette">
+        <div class="col-md-7">
+          <h2 class="featurette-heading fw-normal lh-1">
+            First Program in JAVA 🍵.
+            <span class="text-muted"
+              >one of the most popular programming languages for many years.</span
+            >
+          </h2>
+          <p class="lead">
+            Java is a high-level, class-based, object-oriented programming language that is designed
+            to have as few implementation dependencies as possible. The syntax of Java is similar to
+            C and C++, but has fewer low-level facilities than either of them.
+          </p>
+          <a class="btn btn-outline-primary" href="/squarecard3.html">Read More »</a>
+        </div>
+        <div class="col-md-5">
+          <img
+            src="image/java.jpeg"
+            class="bd-placeholder-img bd-placeholder-img-lg featurette-image img-fluid mx-auto"
+            width="400"
+            height="400"
+            alt=""
+          />
+        </div>
+      </div>
+
+      <hr class="featurette-divider" />
+
+      <!-- /END THE FEATURETTES -->
+    </div>
+
+    <!-- Footer -->
+    <hr />
+    <div class="containerfoot" style="margin-top: auto">
+        <footer class="py-2 my-2">
+            <ul class="nav justify-content-center border-bottom pb-3 mb-3">
+                <li class="nav-item"><a href="#" class="nav-link px-2 text-muted">Home</a></li>
+                <li class="nav-item"><a href="/blog.html" class="nav-link px-2 text-muted">Blogs</a></li>
+                <li class="nav-item"><a href="/contactus.html" class="nav-link px-2 text-muted">Contact us</a></li>
+                <li class="nav-item"><a href="/about.html" class="nav-link px-2 text-muted">About</a></li>
+                <li class="nav-item"><a href="/writeforus.html" class="nav-link px-2 text-muted">Write For us</a></li>
+            </ul>
+            <div class="containerfoot" style="background: linear-gradient(
+                150deg,
+                rgb(156, 39, 39) 0%,
+                rgb(39, 98, 157) 100%
+              ); color: gold">
+                <div class=" d-flex flex-wrap justify-content-center align-items-center py-1  border-top">
+                    <div class="col-md-4 d-flex align-items-center">
+                        <span class="mb-3 mb-md-0 text-unmuted">© 2022 Code Fox @MD YASIR</span>
+                    </div>
+                    <img src="/image/fox2.png " alt="" width="44" height="44" class="  nav justify-content-center ">
+                    <ul class="nav col-md-4 justify-content-end list-unstyled d-flex">
+                        <li class="ms-3"><a class="text-muted" class="bi" width="24" height="24"
+                                href="https://github.com/yasir8412" target="_blank"><img src="/image/github.png" alt=""
+                                    srcset=""></a></li>
+                        <li class="ms-3"><a class="text-muted" class="bi" width="24" height="24"
+                                href="https://www.linkedin.com/in/md-yasir-028/" target="_blank"><img
+                                    src="/image/linkedin.png" alt=""></a></li>
+                        <li class="ms-3"><a class="text-muted" class="bi" width="24" height="24"
+                                href="https://www.instagram.com/iamyasir028/" target="_blank"><img
+                                    src="/image/instagram.png" alt="">
+                            </a></li>
+                    </ul>
+                </div>
+        </footer>
+    </div>      
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-kenU1KFdBIe4zVF0s0G1M5b4hcpxyD9F7jL+jjXkk+Q2h455rYXK/7HAuoJl+0I4"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>
